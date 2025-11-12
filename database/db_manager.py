@@ -132,7 +132,6 @@ class DatabaseManager:
             total_nao_autorizadas = cursor.fetchone()[0]
             cursor.execute("SELECT COUNT(*) FROM logs_acesso WHERE DATE(timestamp) = DATE('now', 'localtime')")
             acessos_hoje = cursor.fetchone()[0]
-            # --- CORREÇÃO DO ERRO DE DIGITAÇÃO AQUI ---
             cursor.execute("SELECT COUNT(*) FROM logs_acesso WHERE DATE(timestamp) = DATE('now', 'localtime') AND acao_cancela = 'ABERTA'")
             acessos_autorizados_hoje = cursor.fetchone()[0]
             return {

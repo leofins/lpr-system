@@ -21,7 +21,6 @@ def create_database():
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
     
-    # --- CORREÇÃO 1 AQUI ---
     # Adiciona 'INATIVA' à lista de status permitidos
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS placas_autorizadas (
@@ -58,9 +57,7 @@ def create_database():
 
 def insert_sample_data(cursor):
     """Insere dados de exemplo no banco de dados."""
-    
-    # --- CORREÇÃO 2 AQUI ---
-    # Corrigindo 'AUTORIZADO' para 'AUTORIZADA' e 'NAO_AUTORIZADO' para 'NAO_AUTORIZADA'
+
     placas_exemplo = [
         ('OTM2X22', 'AUTORIZADA', 'Volkswagen Gol', 'Azul', 'Leonardo Henrique'),
         ('OTM2022', 'NAO_AUTORIZADA', 'Volkswagen Gol', 'Azul', 'Tiago Rosto'),
