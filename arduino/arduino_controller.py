@@ -108,7 +108,7 @@ if __name__ == "__main__":
     # Substitua '/dev/ttyACM0' pela porta serial correta do seu Arduino.
     # No Windows, pode ser algo como 'COM3'.
     
-    arduino_port = '/dev/ttyACM0' # Ou 'COM3', '/dev/ttyUSB0', etc.
+    arduino_port = '/dev/ttyUSB0' # Ou 'COM3', '/dev/ttyUSB0', etc.
     
     try:
         controller = ArduinoController(port=arduino_port)
