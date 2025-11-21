@@ -26,21 +26,23 @@ O objetivo é automatizar o fluxo de entrada/saída de veículos em pátios de l
 
 📚 Sumário
 
-🚀 Tecnologias Utilizadas
+## 📚 Sumário
 
-📦 Arquitetura do Sistema
-
-🧩 Requisitos do Sistema
-
-⚙️ Instalação e Configuração
-
-▶️ Execução
-
-🖥️ Como Usar
-
-📸 Diagramas e Imagens
-
-📄 Licença
+- [🚀 Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- 
+- [📦 Arquitetura do Sistema](#-arquitetura-do-sistema)
+- 
+- [🧩 Requisitos do Sistema](#-requisitos-do-sistema)
+- 
+- [⚙️ Instalação e Configuração](#️-instalacao-e-configuracao)
+- 
+- [▶️ Execução](#️-execucao)
+- 
+- [🖥️ Como Usar](#️-como-usar)
+- 
+- [📸 Diagramas e Imagens](#-diagramas-e-imagens)
+- 
+- [📄 Licença](#-licenca)
 
 🚀 Tecnologias Utilizadas
 🧠 Visão Computacional
